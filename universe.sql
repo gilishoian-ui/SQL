@@ -96,7 +96,8 @@ VALUES
 ('Charon', 8, 1978, TRUE, 606),
 ('Nereid', 8, 1949, FALSE, 170),
 ('Proteus', 8, 1989, FALSE, 210);
- CREATE TABLE comet (
+
+CREATE TABLE comet (
   comet_id SERIAL PRIMARY KEY,
   name VARCHAR(50) UNIQUE NOT NULL,
   origin TEXT NOT NULL,
